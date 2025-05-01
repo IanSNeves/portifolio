@@ -1,0 +1,75 @@
+/* Habilidades */
+.skills {
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 15rem;
+}
+
+.skills .skills__content {
+    padding: 12rem 4rem;
+    text-align: center;
+}
+
+.skills .skills__content .description {
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+    gap: 2rem;
+}
+
+.skills .skills__content ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+.skills .skills__content ul li .image-container {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.skills .skills__content ul li h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 2rem 0 1rem;
+}
+/* tecnologias */
+.technologies .technologies__content {
+    padding: 6rem 4rem;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.technologies .technologies__content ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-left: -1.2rem;
+}
+.technologies .technologies__content ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 1.2rem;
+}
+    
+.technologies .technologies__content img {
+    width: 5rem;
+    height: 5rem;
+}
+.technologies .technologies__content .image-container {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+}
