@@ -22,6 +22,15 @@ header .header__right .header__image {
     line-height: 0;
 }
 
+header .header__right .header__image .abstract{
+    min-width: 20rem;
+    max-width: 30rem;
+    position: absolute;
+    top: 0; 
+    right: 3rem;
+    z-index: -1;
+}
+
 header .header__right .header__image::after {
     content: '';
     display: block;
@@ -37,9 +46,9 @@ header .header__right .header__image::after {
 
 header .header__right .header__image .ian{
     border-radius: 0.5rem;
-    min-width: 25rem;
-    max-width: 100%;
-    height: 60rem;
+    min-width: 16rem;
+    max-width: 30rem;
+    height: auto;
 }
 
 header .header__right .header__image .background{

@@ -4,7 +4,8 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: var(--white);
+    background-color: var(--dark-secondary-color);
+    font-weight: 600;
 }
 .navbar .navbar__logo .logo{
     margin-top: -1.5rem;

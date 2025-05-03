@@ -38,30 +38,49 @@
     margin: 2rem 0 1rem;
 }
 /* tecnologias */
-.technologies .technologies__content {
-    padding: 6rem 4rem;
-    justify-content: space-between;
-    gap: 4rem;
+
+.technologies {
+    margin: 0 auto;
+    padding: 0 ;
+    scroll-margin-top: 15rem;
+}
+
+.technologies  .technologies__content {
+    padding: 12rem 4rem;
+    text-align: center;
+    background-color: var(--light-tertiary-color);
+    
+}
+.technologies .technologies__content .description {
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+    gap: 2rem;
 }
 .technologies .technologies__content ul {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
     gap: 4rem;
-    margin-left: -1.2rem;
 }
+
 .technologies .technologies__content ul li {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 1rem;
-    width: 10rem;
-    height: 10rem;
-    margin-left: 1.2rem;
+    gap: 2rem;
+    width: 25rem;
+    height: 5rem;
+    padding: 2rem; 
 }
-    
+
+.technologies .technologies__content .tec__name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 3rem 0 1rem;
+    text-align: center;
+}
+
 .technologies .technologies__content img {
     width: 5rem;
     height: 5rem;
