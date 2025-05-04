@@ -26,8 +26,8 @@ header .header__right .header__image .abstract{
     min-width: 20rem;
     max-width: 30rem;
     position: absolute;
-    top: 0; 
-    right: 3rem;
+    top: -1.4rem; 
+    right: -1.5rem;
     z-index: -1;
 }
 
@@ -56,4 +56,26 @@ header .header__right .header__image .background{
     top: -4rem;
     right: -2.5rem;
     z-index: -1;
+}
+
+header .header__left .btn:hover {
+    background-color: var(--tertiary-color);
+    color: var(--white);
+    transition: all 0.3s ease-in-out; 
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    header .header__left {
+        margin: 2rem auto 4rem;
+        text-align: center;
+    }
+
+    header .header__left p {
+        margin: 0 auto 2rem;
+    }
 }
